@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
+
+:root {
+    --bs-primary: #0084b6;
+    --bs-primary-hover: #0086b6cd;
+}
+
+html {
+}
+
+p {
+    font-family: 'Montserrat', serif;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.btn-outline-primary:hover {
+    color: white;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.btn-primary {
+    background-color: var(--bs-primary);
+    color: white;
+    border-color: var(--bs-primary);
+}
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+}
+
+@media (min-width: 992px) {
+     figcaption {opacity: 0;}
+     .figcaption-hover:hover figcaption {opacity: 1;}
+}
