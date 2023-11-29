@@ -29,40 +29,36 @@
                         <a class="nav-link fs-5 me-2" href="about.html">Om Tørmer Firmaet Basker</a>
                     </li>
                     </ul>
-                    <a href="contact.html" class="btn btn-primary text-capitalize fs-5" type="submit">Få et tilbud <i class="bi bi-arrow-right fs-5"></i></a>
+                    <button class="btn btn-primary text-capitalize fs-5" type="submit">Få et tilbud <i class="bi bi-arrow-right fs-5"></i></button>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-       <section class="bg-primary">
-            <div class="container">
-                <div class="pb-5 row flex-column justify-content-center align-items-center">
-                    <div class="col-6">
-                        <h1 class="display-4 text-white pt-5">Din lokale tørmer i Taastrup og omregn</h1>
-                    </div>
-                    <div class="col-6">
-                        <p class="fs-5 pb-5 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui iste magnam recusandae eveniet. Alias, pariatur!</p>
-                    </div>
-                </col>
-            </div>
-        </section>
-        <section class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <img src="Images/Fuld-Logo.svg" alt="" class="img-fluid">
+    <div class="container col-6 pt-5">
+        <form class="">
+              <div class="row g-3">
+                <div class="col-12">
+                  <label for="name" class="form-label">Navn</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="name" placeholder="Navn">
+                  </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column justify-content-center pt-5">
-                    <h2 class="display-4">Vores Engagement</h2>
-                    <p class="fs-4">Tørmer Firmaet Basker er din pålidelige tømrervirksomhed baseret i Taastrup og vi betjener også det indre København. Vores ekspertise omfatter primært gulv-, gips- og træarbejde, men vi er klar til at håndtere en bred vifte af opgaver.
-                    </p>
-                    <p class="fs-5">Når du vælger at samarbejde med os, vælger du ikke blot en almindelig tømrer. Du vælger en professionel, der går op i hvert eneste projekt. Vores dedikation sikrer, at vi leverer høj kvalitet og opfylder dine behov.</p>
-                    <div class="text-lg-start text-md-start text-sm-center text-center">
-                        <a href="contact.html" class="btn btn-lg btn-primary">Kontakt os nu<i class="bi bi-arrow-right"></i></a>
-                    </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
+                  <input type="email" class="form-control" id="email" placeholder="Dig@example.com">
+                  <div class="invalid-feedback">
+                    Inkorrekt email adresse.
+                  </div>
                 </div>
-            </div>
-        </section>
+                <div class="col-12">
+                  <label for="message" class="form-label">Besked <span class="text-body-secondary"></span></label>
+                  <textarea type="message" class="form-control" id="message" placeholder="Besked her..."></textarea>
+                </div>
+              </div>
+              <button class="w-100 btn btn-primary btn-lg mt-2" type="submit">Send Mail</button>
+            </form>
+    </div>
     </main>
     <footer>
         <hr class="my-5">
