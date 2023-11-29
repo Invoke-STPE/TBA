@@ -5,15 +5,16 @@
     --bs-primary-hover: #0086b6cd;
 }
 
-html {
-}
-
 p {
     font-family: 'Montserrat', serif;
 }
 
 h1, h2 {
     font-family: 'Open Sans', sans-serif;
+}
+
+.transform-up {
+    transform: translateY(-2rem);
 }
 
 .btn-outline-primary {
