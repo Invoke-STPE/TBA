@@ -1,0 +1,51 @@
+$blue: #0084b6;
+$brown: #aa5f3c;
+$primary: $blue;
+$secondary: $brown;
+$headings-font-family: 'League Spartan', sans-serif;
+$font-family-sans-serif: 'Libre Baskerville', serif;
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Libre+Baskerville&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-primary {
+    color: white;
+}
+
+body {
+    background-color: #aa5f3c0e;
+}
+
+.btn-primary:hover {
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-services-size {
+    width: 352px;
+    height: 235px;
+}
+
+.avatar-xl, .avatar-xl .avatar-initials {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+@media screen and (max-width: 992px){
+      .card-img-overlay {
+            opacity: 1;
+        }
+}
