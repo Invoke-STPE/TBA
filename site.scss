@@ -7,17 +7,17 @@ $font-family-sans-serif: 'Libre Baskerville', serif;
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Libre+Baskerville&display=swap');
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-.btn-primary {
-    color: white;
+.btn-primary { 
+    color: white; 
 }
 
 body {
     background-color: #aa5f3c0e;
-}
+} 
 
-.btn-primary:hover {
+.btn-primary:hover { 
     color: white;
 }
 
